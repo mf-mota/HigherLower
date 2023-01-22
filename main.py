@@ -7,10 +7,8 @@ from os import system, name
 def higher_lower():
     game_not_end = True
     while game_not_end:
-        print(logo)
-        game_not_over = True
-
         def new_game():
+            print(logo)
             instagram_followers = [
                 ["Danielle Collins", 172000],
                 ["FC Bayern", 36300000],

@@ -9,6 +9,7 @@ def higher_lower():
     while game_not_end:
         def new_game():
             print(logo)
+            input("\nPress Enter to start...")
             instagram_followers = [
                 ["Danielle Collins", 172000],
                 ["FC Bayern", 36300000],
@@ -57,6 +58,8 @@ def higher_lower():
         print(f"{game_over}\n")
         if input("Do you want to play again? Y/N: ").lower() == "n":
             game_not_end = False
+        else:
+            os.system('cls')
 
 
 higher_lower()
